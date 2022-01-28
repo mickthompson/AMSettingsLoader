@@ -12,6 +12,11 @@ namespace AMSettingsLoader
     {
         private AutomationElement _app;
 
+        private Dictionary<string, string> _overrides = new Dictionary<string, string>()
+        {
+            {"FrequencyDouble", "InterpolationLevel" }
+        };
+        
         public int TotalForce
         {
             get => int.Parse(GetValuePattern().Current.Value);
@@ -33,6 +38,11 @@ namespace AMSettingsLoader
 
         public void SetValue(string name, int value)
         {
+            if (_overrides.TryGetValue(name, out var controlName))
+            {
+                name = controlName;
+            }
+
             var p = GetValuePattern(name);
 
             if(p != null)
