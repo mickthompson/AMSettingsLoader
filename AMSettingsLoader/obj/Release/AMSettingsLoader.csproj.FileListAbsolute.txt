@@ -1,0 +1,6 @@
+C:\github\SimHubAlphaManagerPlugin\AMSettingsLoader\bin\Release\AMSettingsLoader.exe
+C:\github\SimHubAlphaManagerPlugin\AMSettingsLoader\bin\Release\AMSettingsLoader.pdb
+C:\github\SimHubAlphaManagerPlugin\AMSettingsLoader\obj\Release\AMSettingsLoader.csproj.SuggestedBindingRedirects.cache
+C:\github\SimHubAlphaManagerPlugin\AMSettingsLoader\obj\Release\AMSettingsLoader.csproj.CoreCompileInputs.cache
+C:\github\SimHubAlphaManagerPlugin\AMSettingsLoader\obj\Release\AMSettingsLoader.exe
+C:\github\SimHubAlphaManagerPlugin\AMSettingsLoader\obj\Release\AMSettingsLoader.pdb
